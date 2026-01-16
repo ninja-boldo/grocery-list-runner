@@ -1,0 +1,438 @@
+[2m2026-01-07T22:19:34.015090Z[0m [32m INFO[0m [2mfresh[0m[2m:[0m Editor starting
+[2m2026-01-07T22:19:34.015142Z[0m [32m INFO[0m [2mfresh[0m[2m:[0m Signal handlers installed
+[2m2026-01-07T22:19:34.015353Z[0m [32m INFO[0m [2mfresh::config_io[0m[2m:[0m Loaded layered config for /root
+[2m2026-01-07T22:19:34.028492Z[0m [32m INFO[0m [2mfresh[0m[2m:[0m Enabled keyboard enhancement flags: KeyboardEnhancementFlags(DISAMBIGUATE_ESCAPE_CODES | REPORT_ALTERNATE_KEYS)
+[2m2026-01-07T22:19:34.028549Z[0m [34mDEBUG[0m [2mfresh::services::gpm::client[0m[2m:[0m GPM: Attempting to connect...
+[2m2026-01-07T22:19:34.028556Z[0m [34mDEBUG[0m [2mfresh::services::gpm::ffi[0m[2m:[0m GPM FFI: Attempting to load libgpm...
+[2m2026-01-07T22:19:34.028755Z[0m [34mDEBUG[0m [2mfresh::services::gpm::ffi[0m[2m:[0m GPM FFI: Loaded libgpm from: libgpm.so.2
+[2m2026-01-07T22:19:34.028764Z[0m [34mDEBUG[0m [2mfresh::services::gpm::client[0m[2m:[0m GPM: libgpm loaded successfully
+[2m2026-01-07T22:19:34.028773Z[0m [34mDEBUG[0m [2mfresh::services::gpm::client[0m[2m:[0m GPM: stdin isatty = true
+[2m2026-01-07T22:19:34.028805Z[0m [34mDEBUG[0m [2mfresh::services::gpm::client[0m[2m:[0m GPM: stdin tty path = /dev/pts/0
+[2m2026-01-07T22:19:34.028811Z[0m [34mDEBUG[0m [2mfresh::services::gpm::client[0m[2m:[0m GPM: Not a Linux virtual console (tty path doesn't match pattern)
+[2m2026-01-07T22:19:34.028818Z[0m [34mDEBUG[0m [2mfresh::services::gpm::client[0m[2m:[0m GPM: is_linux_console() = false
+[2m2026-01-07T22:19:34.028823Z[0m [34mDEBUG[0m [2mfresh::services::gpm::client[0m[2m:[0m GPM: Not a Linux console, skipping GPM
+[2m2026-01-07T22:19:34.028843Z[0m [32m INFO[0m [2mfresh[0m[2m:[0m Enabled crossterm mouse capture
+[2m2026-01-07T22:19:34.028928Z[0m [32m INFO[0m [2mfresh[0m[2m:[0m Enabled bracketed paste mode
+[2m2026-01-07T22:19:34.028947Z[0m [32m INFO[0m [2mfresh[0m[2m:[0m Set cursor style to Default
+[2m2026-01-07T22:19:34.029499Z[0m [32m INFO[0m [2mfresh[0m[2m:[0m Terminal size: 148x44
+[2m2026-01-07T22:19:34.108237Z[0m [34mDEBUG[0m [2mfresh::primitives::grammar_registry[0m[2m:[0m Loaded embedded TOML grammar
+[2m2026-01-07T22:19:34.247808Z[0m [32m INFO[0m [2mfresh::primitives::grammar_registry[0m[2m:[0m Loaded 76 syntaxes, 0 user extension mappings, 8 filename mappings
+[2m2026-01-07T22:19:34.247868Z[0m [32m INFO[0m [2mfresh::app[0m[2m:[0m Editor::new called with width=148, height=44
+[2m2026-01-07T22:19:34.248179Z[0m [32m INFO[0m [2mfresh::app[0m[2m:[0m Grammar registry has 76 syntaxes
+[2m2026-01-07T22:19:34.248611Z[0m [32m INFO[0m [2mfresh::app[0m[2m:[0m EditorState created for buffer BufferId(0)
+[2m2026-01-07T22:19:34.249177Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::spawn: starting plugin thread creation
+[2m2026-01-07T22:19:34.249197Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::spawn: spawning OS thread for plugin runtime
+[2m2026-01-07T22:19:34.249279Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread: OS thread started, creating tokio runtime
+[2m2026-01-07T22:19:34.249313Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread: tokio runtime created successfully
+[2m2026-01-07T22:19:34.249320Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread: creating TypeScript runtime (V8 initialization)
+[2m2026-01-07T22:19:34.249328Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScriptRuntime::with_state_and_responses: initializing V8 platform
+[2m2026-01-07T22:19:34.249784Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::spawn: OS thread spawned, returning handle
+[2m2026-01-07T22:19:34.249797Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread spawned
+[2m2026-01-07T22:19:34.249844Z[0m [32m INFO[0m [2mfresh::app[0m[2m:[0m Loading TypeScript plugins from: "/usr/share/fresh-editor/plugins"
+[2m2026-01-07T22:19:34.250527Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScriptRuntime::with_state_and_responses: V8 platform initialized
+[2m2026-01-07T22:19:34.250546Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScriptRuntime::with_state_and_responses: creating runtime state
+[2m2026-01-07T22:19:34.250550Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScriptRuntime::with_state_and_responses: creating JsRuntime with deno_core
+[2m2026-01-07T22:19:34.265474Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScriptRuntime::with_state_and_responses: JsRuntime created in 14.915139ms
+[2m2026-01-07T22:19:34.266676Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScriptRuntime::with_state_and_responses: bootstrap script executed, runtime ready
+[2m2026-01-07T22:19:34.266711Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread: TypeScript runtime created successfully
+[2m2026-01-07T22:19:34.266718Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread: starting event loop with LocalSet
+[2m2026-01-07T22:19:34.266748Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread: entering plugin_thread_loop
+[2m2026-01-07T22:19:34.266754Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread event loop started
+[2m2026-01-07T22:19:34.266764Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: scanning directory "/usr/share/fresh-editor/plugins"
+[2m2026-01-07T22:19:34.266851Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/theme_editor.ts"
+[2m2026-01-07T22:19:34.266861Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: theme_editor from "/usr/share/fresh-editor/plugins/theme_editor.ts"
+[2m2026-01-07T22:19:34.266871Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'theme_editor'
+[2m2026-01-07T22:19:34.268963Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'theme_editor'
+[2m2026-01-07T22:19:34.286448Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeSelectInitialPromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.286493Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeColorPromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.286502Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeOpenPromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.286511Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeSaveAsPromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.286520Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeDiscardPromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.286528Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeOverwritePromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.286537Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeDeletePromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.286545Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemePromptCancelled' for 'prompt_cancelled'
+[2m2026-01-07T22:19:34.286556Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeEditorCursorMoved' for 'cursor_moved'
+[2m2026-01-07T22:19:34.286576Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onThemeEditorBufferClosed' for 'buffer_closed'
+[2m2026-01-07T22:19:34.286773Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Theme Editor plugin loaded
+[2m2026-01-07T22:19:34.286806Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [theme_editor] Theme Editor plugin initialized - Use 'Edit Theme' command to open
+[2m2026-01-07T22:19:34.288257Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'theme_editor' loaded successfully in 19.261213ms
+[2m2026-01-07T22:19:34.288289Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'theme_editor' registered, total plugins loaded: 1
+[2m2026-01-07T22:19:34.288306Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/csharp_support.ts"
+[2m2026-01-07T22:19:34.288316Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: csharp_support from "/usr/share/fresh-editor/plugins/csharp_support.ts"
+[2m2026-01-07T22:19:34.288326Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'csharp_support'
+[2m2026-01-07T22:19:34.288440Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'csharp_support'
+[2m2026-01-07T22:19:34.289929Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_csharp_lsp_server_request' for 'lsp_server_request'
+[2m2026-01-07T22:19:34.289967Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_csharp_file_open' for 'after_file_open'
+[2m2026-01-07T22:19:34.290029Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'csharp_support' loaded successfully in 1.578656ms
+[2m2026-01-07T22:19:34.290041Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'csharp_support' registered, total plugins loaded: 2
+[2m2026-01-07T22:19:34.290056Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/merge_conflict.ts"
+[2m2026-01-07T22:19:34.290065Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: merge_conflict from "/usr/share/fresh-editor/plugins/merge_conflict.ts"
+[2m2026-01-07T22:19:34.290071Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'merge_conflict'
+[2m2026-01-07T22:19:34.290633Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'merge_conflict'
+[2m2026-01-07T22:19:34.306009Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onMergeBufferActivated' for 'buffer_activated'
+[2m2026-01-07T22:19:34.306060Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onMergeAfterFileOpen' for 'after_file_open'
+[2m2026-01-07T22:19:34.306106Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Merge Conflict Resolution plugin loaded
+[2m2026-01-07T22:19:34.306120Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [merge_conflict] Merge plugin initialized - Use 'Merge: Start Resolution' for files with conflicts
+[2m2026-01-07T22:19:34.306187Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'merge_conflict' loaded successfully in 15.528065ms
+[2m2026-01-07T22:19:34.306199Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'merge_conflict' registered, total plugins loaded: 3
+[2m2026-01-07T22:19:34.306277Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/live_grep.ts"
+[2m2026-01-07T22:19:34.306292Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: live_grep from "/usr/share/fresh-editor/plugins/live_grep.ts"
+[2m2026-01-07T22:19:34.306302Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'live_grep'
+[2m2026-01-07T22:19:34.306459Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'live_grep'
+[2m2026-01-07T22:19:34.310450Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onLiveGrepPromptChanged' for 'prompt_changed'
+[2m2026-01-07T22:19:34.310493Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onLiveGrepSelectionChanged' for 'prompt_selection_changed'
+[2m2026-01-07T22:19:34.310502Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onLiveGrepPromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.310511Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onLiveGrepPromptCancelled' for 'prompt_cancelled'
+[2m2026-01-07T22:19:34.310532Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [live_grep] Live Grep plugin loaded
+[2m2026-01-07T22:19:34.310560Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Live Grep ready - use command palette or bind 'start_live_grep'
+[2m2026-01-07T22:19:34.310643Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'live_grep' loaded successfully in 4.175603ms
+[2m2026-01-07T22:19:34.310660Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'live_grep' registered, total plugins loaded: 4
+[2m2026-01-07T22:19:34.310676Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/clangd_support.ts"
+[2m2026-01-07T22:19:34.310690Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: clangd_support from "/usr/share/fresh-editor/plugins/clangd_support.ts"
+[2m2026-01-07T22:19:34.310702Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'clangd_support'
+[2m2026-01-07T22:19:34.310911Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'clangd_support'
+[2m2026-01-07T22:19:34.318311Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Clangd support plugin loaded (switch header + config commands)
+[2m2026-01-07T22:19:34.318360Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onClangdCustomNotification' for 'lsp/custom_notification'
+[2m2026-01-07T22:19:34.318417Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'clangd_support' loaded successfully in 7.495685ms
+[2m2026-01-07T22:19:34.318428Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'clangd_support' registered, total plugins loaded: 5
+[2m2026-01-07T22:19:34.318440Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/welcome.ts"
+[2m2026-01-07T22:19:34.318450Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: welcome from "/usr/share/fresh-editor/plugins/welcome.ts"
+[2m2026-01-07T22:19:34.318459Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'welcome'
+[2m2026-01-07T22:19:34.318623Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'welcome'
+[2m2026-01-07T22:19:34.319266Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Plugins are working! Welcome Plugin loaded successfully!
+[2m2026-01-07T22:19:34.319305Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [welcome] Welcome plugin initialized successfully!
+[2m2026-01-07T22:19:34.319309Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [welcome] Registered 5 commands - try Ctrl+P to see them!
+[2m2026-01-07T22:19:34.319312Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [welcome]    - 'Plugin Demo: Open Help' - toggles help screen (built-in action)
+[2m2026-01-07T22:19:34.319316Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [welcome]    - 'Plugin Demo: Save File' - saves current file (built-in action)
+[2m2026-01-07T22:19:34.319319Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [welcome]    - 'Plugin Demo: Say Hello' - inserts greeting (TypeScript callback)
+[2m2026-01-07T22:19:34.319322Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [welcome]    - 'Plugin Demo: Insert Time' - inserts current time (TypeScript callback)
+[2m2026-01-07T22:19:34.319334Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [welcome]    - 'Plugin Demo: Insert Comment' - inserts sample comment (TypeScript callback)
+[2m2026-01-07T22:19:34.319371Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'welcome' loaded successfully in 741.713µs
+[2m2026-01-07T22:19:34.319378Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'welcome' registered, total plugins loaded: 6
+[2m2026-01-07T22:19:34.319385Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/csharp-lsp.ts"
+[2m2026-01-07T22:19:34.319389Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: csharp-lsp from "/usr/share/fresh-editor/plugins/csharp-lsp.ts"
+[2m2026-01-07T22:19:34.319393Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'csharp-lsp'
+[2m2026-01-07T22:19:34.320342Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_csharp_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.320365Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_csharp_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.320375Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_csharp_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.320387Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [csharp-lsp] csharp-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.320431Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'csharp-lsp' loaded successfully in 1.026604ms
+[2m2026-01-07T22:19:34.320441Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'csharp-lsp' registered, total plugins loaded: 7
+[2m2026-01-07T22:19:34.320451Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/css-lsp.ts"
+[2m2026-01-07T22:19:34.320460Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: css-lsp from "/usr/share/fresh-editor/plugins/css-lsp.ts"
+[2m2026-01-07T22:19:34.320479Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'css-lsp'
+[2m2026-01-07T22:19:34.321532Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_css_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.321553Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_css_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.321564Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_css_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.321593Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [css-lsp] css-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.321636Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'css-lsp' loaded successfully in 1.143318ms
+[2m2026-01-07T22:19:34.321666Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'css-lsp' registered, total plugins loaded: 8
+[2m2026-01-07T22:19:34.321679Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/clangd-lsp.ts"
+[2m2026-01-07T22:19:34.321689Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: clangd-lsp from "/usr/share/fresh-editor/plugins/clangd-lsp.ts"
+[2m2026-01-07T22:19:34.321698Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'clangd-lsp'
+[2m2026-01-07T22:19:34.322686Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_clangd_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.322713Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_clangd_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.322718Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_clangd_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.322724Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [clangd-lsp] clangd-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.322887Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'clangd-lsp' loaded successfully in 1.175975ms
+[2m2026-01-07T22:19:34.322894Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'clangd-lsp' registered, total plugins loaded: 9
+[2m2026-01-07T22:19:34.322902Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/markdown_compose.ts"
+[2m2026-01-07T22:19:34.322906Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: markdown_compose from "/usr/share/fresh-editor/plugins/markdown_compose.ts"
+[2m2026-01-07T22:19:34.322910Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'markdown_compose'
+[2m2026-01-07T22:19:34.323023Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'markdown_compose'
+[2m2026-01-07T22:19:34.327259Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onMarkdownViewTransform' for 'view_transform_request'
+[2m2026-01-07T22:19:34.327300Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onMarkdownBufferClosed' for 'buffer_closed'
+[2m2026-01-07T22:19:34.327304Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onMarkdownComposeWidthConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.327342Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [markdown_compose] Markdown Compose plugin loaded - use 'Markdown: Toggle Compose' command
+[2m2026-01-07T22:19:34.327363Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Markdown plugin ready
+[2m2026-01-07T22:19:34.327428Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'markdown_compose' loaded successfully in 4.401368ms
+[2m2026-01-07T22:19:34.327436Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'markdown_compose' registered, total plugins loaded: 10
+[2m2026-01-07T22:19:34.327445Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/audit_mode.ts"
+[2m2026-01-07T22:19:34.327450Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: audit_mode from "/usr/share/fresh-editor/plugins/audit_mode.ts"
+[2m2026-01-07T22:19:34.327453Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'audit_mode'
+[2m2026-01-07T22:19:34.327807Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'audit_mode'
+[2m2026-01-07T22:19:34.346470Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_review_prompt_confirm' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.346510Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_review_prompt_cancel' for 'prompt_cancelled'
+[2m2026-01-07T22:19:34.346549Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_buffer_closed' for 'buffer_closed'
+[2m2026-01-07T22:19:34.346573Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [audit_mode] Review Diff plugin loaded with review comments support
+[2m2026-01-07T22:19:34.346633Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'audit_mode' loaded successfully in 18.821829ms
+[2m2026-01-07T22:19:34.346641Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'audit_mode' registered, total plugins loaded: 11
+[2m2026-01-07T22:19:34.346652Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/json-lsp.ts"
+[2m2026-01-07T22:19:34.346658Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: json-lsp from "/usr/share/fresh-editor/plugins/json-lsp.ts"
+[2m2026-01-07T22:19:34.346662Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'json-lsp'
+[2m2026-01-07T22:19:34.347870Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_json_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.347899Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_json_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.347910Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_json_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.347922Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [json-lsp] json-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.347970Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'json-lsp' loaded successfully in 1.289649ms
+[2m2026-01-07T22:19:34.347981Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'json-lsp' registered, total plugins loaded: 12
+[2m2026-01-07T22:19:34.348006Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/vi_mode.ts"
+[2m2026-01-07T22:19:34.348016Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: vi_mode from "/usr/share/fresh-editor/plugins/vi_mode.ts"
+[2m2026-01-07T22:19:34.348024Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'vi_mode'
+[2m2026-01-07T22:19:34.348646Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'vi_mode'
+[2m2026-01-07T22:19:34.370888Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'vi_command_handler' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.370971Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Vi mode plugin loaded. Use 'Toggle Vi mode' command to enable.
+[2m2026-01-07T22:19:34.371070Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'vi_mode' loaded successfully in 22.410838ms
+[2m2026-01-07T22:19:34.371086Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'vi_mode' registered, total plugins loaded: 13
+[2m2026-01-07T22:19:34.371102Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/calculator.ts"
+[2m2026-01-07T22:19:34.371115Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: calculator from "/usr/share/fresh-editor/plugins/calculator.ts"
+[2m2026-01-07T22:19:34.371125Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'calculator'
+[2m2026-01-07T22:19:34.371230Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'calculator'
+[2m2026-01-07T22:19:34.378456Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onCalculatorMouseClick' for 'mouse_click'
+[2m2026-01-07T22:19:34.378498Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onCalculatorMouseMove' for 'mouse_move'
+[2m2026-01-07T22:19:34.378529Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Calculator plugin loaded
+[2m2026-01-07T22:19:34.378586Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'calculator' loaded successfully in 7.349039ms
+[2m2026-01-07T22:19:34.378593Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'calculator' registered, total plugins loaded: 14
+[2m2026-01-07T22:19:34.378602Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/color_highlighter.ts"
+[2m2026-01-07T22:19:34.378608Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: color_highlighter from "/usr/share/fresh-editor/plugins/color_highlighter.ts"
+[2m2026-01-07T22:19:34.378612Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'color_highlighter'
+[2m2026-01-07T22:19:34.378721Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'color_highlighter'
+[2m2026-01-07T22:19:34.380947Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onColorRenderStart' for 'render_start'
+[2m2026-01-07T22:19:34.380985Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onColorLinesChanged' for 'lines_changed'
+[2m2026-01-07T22:19:34.381012Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onColorAfterInsert' for 'after_insert'
+[2m2026-01-07T22:19:34.381021Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onColorAfterDelete' for 'after_delete'
+[2m2026-01-07T22:19:34.381029Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onColorBufferClosed' for 'buffer_closed'
+[2m2026-01-07T22:19:34.381083Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Color Highlighter plugin loaded
+[2m2026-01-07T22:19:34.381095Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [color_highlighter] Color Highlighter initialized - supports hex, rgb, hsl, and Rust Color::Rgb
+[2m2026-01-07T22:19:34.381171Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'color_highlighter' loaded successfully in 2.445781ms
+[2m2026-01-07T22:19:34.381189Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'color_highlighter' registered, total plugins loaded: 15
+[2m2026-01-07T22:19:34.381205Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/typescript-lsp.ts"
+[2m2026-01-07T22:19:34.381217Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: typescript-lsp from "/usr/share/fresh-editor/plugins/typescript-lsp.ts"
+[2m2026-01-07T22:19:34.381227Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'typescript-lsp'
+[2m2026-01-07T22:19:34.382627Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_typescript_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.382664Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_typescript_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.382670Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_typescript_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.382678Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [typescript-lsp] typescript-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.382724Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'typescript-lsp' loaded successfully in 1.475771ms
+[2m2026-01-07T22:19:34.382730Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'typescript-lsp' registered, total plugins loaded: 16
+[2m2026-01-07T22:19:34.382739Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/todo_highlighter.ts"
+[2m2026-01-07T22:19:34.382744Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: todo_highlighter from "/usr/share/fresh-editor/plugins/todo_highlighter.ts"
+[2m2026-01-07T22:19:34.382748Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'todo_highlighter'
+[2m2026-01-07T22:19:34.382849Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'todo_highlighter'
+[2m2026-01-07T22:19:34.384738Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onLinesChanged' for 'lines_changed'
+[2m2026-01-07T22:19:34.384768Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onAfterInsert' for 'after_insert'
+[2m2026-01-07T22:19:34.384775Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onAfterDelete' for 'after_delete'
+[2m2026-01-07T22:19:34.384796Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onBufferClosed' for 'buffer_closed'
+[2m2026-01-07T22:19:34.384848Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: TODO Highlighter plugin loaded (TypeScript)
+[2m2026-01-07T22:19:34.384900Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [todo_highlighter] TODO Highlighter initialized with keywords: TODO, FIXME, XXX, HACK, NOTE
+[2m2026-01-07T22:19:34.384966Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'todo_highlighter' loaded successfully in 2.113063ms
+[2m2026-01-07T22:19:34.384978Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'todo_highlighter' registered, total plugins loaded: 17
+[2m2026-01-07T22:19:34.384989Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/git_grep.ts"
+[2m2026-01-07T22:19:34.385000Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: git_grep from "/usr/share/fresh-editor/plugins/git_grep.ts"
+[2m2026-01-07T22:19:34.385008Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'git_grep'
+[2m2026-01-07T22:19:34.385136Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'git_grep'
+[2m2026-01-07T22:19:34.386920Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitGrepPromptChanged' for 'prompt_changed'
+[2m2026-01-07T22:19:34.386956Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitGrepPromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.386965Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitGrepPromptCancelled' for 'prompt_cancelled'
+[2m2026-01-07T22:19:34.386983Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_grep] Git Grep plugin loaded successfully (TypeScript)
+[2m2026-01-07T22:19:34.386992Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_grep] Usage: Call start_git_grep() or use command palette 'Git Grep'
+[2m2026-01-07T22:19:34.387015Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Git Grep plugin ready
+[2m2026-01-07T22:19:34.387065Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_grep' loaded successfully in 1.922278ms
+[2m2026-01-07T22:19:34.387075Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_grep' registered, total plugins loaded: 18
+[2m2026-01-07T22:19:34.387089Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/git_blame.ts"
+[2m2026-01-07T22:19:34.387095Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: git_blame from "/usr/share/fresh-editor/plugins/git_blame.ts"
+[2m2026-01-07T22:19:34.387101Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'git_blame'
+[2m2026-01-07T22:19:34.387348Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'git_blame'
+[2m2026-01-07T22:19:34.392597Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: status.ready
+[2m2026-01-07T22:19:34.392656Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_blame] Git Blame plugin initialized - Use 'Git Blame' command to open
+[2m2026-01-07T22:19:34.392729Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_blame' loaded successfully in 5.36932ms
+[2m2026-01-07T22:19:34.392744Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_blame' registered, total plugins loaded: 19
+[2m2026-01-07T22:19:34.392759Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/diagnostics_panel.ts"
+[2m2026-01-07T22:19:34.392770Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: diagnostics_panel from "/usr/share/fresh-editor/plugins/diagnostics_panel.ts"
+[2m2026-01-07T22:19:34.392780Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'diagnostics_panel'
+[2m2026-01-07T22:19:34.392956Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'diagnostics_panel'
+[2m2026-01-07T22:19:34.398370Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_diagnostics_cursor_moved' for 'cursor_moved'
+[2m2026-01-07T22:19:34.398414Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_diagnostics_updated' for 'diagnostics_updated'
+[2m2026-01-07T22:19:34.398418Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_diagnostics_buffer_activated' for 'buffer_activated'
+[2m2026-01-07T22:19:34.398444Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Diagnostics Panel plugin loaded
+[2m2026-01-07T22:19:34.398452Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [diagnostics_panel] Diagnostics Panel plugin initialized
+[2m2026-01-07T22:19:34.398507Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'diagnostics_panel' loaded successfully in 5.541677ms
+[2m2026-01-07T22:19:34.398515Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'diagnostics_panel' registered, total plugins loaded: 20
+[2m2026-01-07T22:19:34.398524Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/path_complete.ts"
+[2m2026-01-07T22:19:34.398529Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: path_complete from "/usr/share/fresh-editor/plugins/path_complete.ts"
+[2m2026-01-07T22:19:34.398534Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'path_complete'
+[2m2026-01-07T22:19:34.398612Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'path_complete'
+[2m2026-01-07T22:19:34.399867Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onPathCompletePromptChanged' for 'prompt_changed'
+[2m2026-01-07T22:19:34.399908Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Path completion plugin loaded successfully
+[2m2026-01-07T22:19:34.399956Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'path_complete' loaded successfully in 1.340508ms
+[2m2026-01-07T22:19:34.399963Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'path_complete' registered, total plugins loaded: 21
+[2m2026-01-07T22:19:34.399972Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/go-lsp.ts"
+[2m2026-01-07T22:19:34.399977Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: go-lsp from "/usr/share/fresh-editor/plugins/go-lsp.ts"
+[2m2026-01-07T22:19:34.399997Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'go-lsp'
+[2m2026-01-07T22:19:34.400828Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_go_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.400847Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_go_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.400853Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_go_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.400860Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [go-lsp] go-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.400899Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'go-lsp' loaded successfully in 887.325µs
+[2m2026-01-07T22:19:34.400905Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'go-lsp' registered, total plugins loaded: 22
+[2m2026-01-07T22:19:34.400911Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/test_i18n.ts"
+[2m2026-01-07T22:19:34.400916Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: test_i18n from "/usr/share/fresh-editor/plugins/test_i18n.ts"
+[2m2026-01-07T22:19:34.400920Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'test_i18n'
+[2m2026-01-07T22:19:34.400975Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'test_i18n'
+[2m2026-01-07T22:19:34.401468Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Test i18n plugin loaded
+[2m2026-01-07T22:19:34.401529Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'test_i18n' loaded successfully in 549.013µs
+[2m2026-01-07T22:19:34.401546Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'test_i18n' registered, total plugins loaded: 23
+[2m2026-01-07T22:19:34.401555Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/git_find_file.ts"
+[2m2026-01-07T22:19:34.401562Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: git_find_file from "/usr/share/fresh-editor/plugins/git_find_file.ts"
+[2m2026-01-07T22:19:34.401568Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'git_find_file'
+[2m2026-01-07T22:19:34.401763Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'git_find_file'
+[2m2026-01-07T22:19:34.404717Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitFindFilePromptChanged' for 'prompt_changed'
+[2m2026-01-07T22:19:34.404767Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitFindFilePromptConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.404780Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitFindFilePromptCancelled' for 'prompt_cancelled'
+[2m2026-01-07T22:19:34.404816Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_find_file] Git Find File plugin loaded successfully (TypeScript)
+[2m2026-01-07T22:19:34.404828Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_find_file] Usage: Call start_git_find_file() or use command palette 'Git Find File'
+[2m2026-01-07T22:19:34.404870Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Git Find File plugin ready
+[2m2026-01-07T22:19:34.404925Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_find_file' loaded successfully in 3.15378ms
+[2m2026-01-07T22:19:34.404935Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_find_file' registered, total plugins loaded: 24
+[2m2026-01-07T22:19:34.404947Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/git_log.ts"
+[2m2026-01-07T22:19:34.404957Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: git_log from "/usr/share/fresh-editor/plugins/git_log.ts"
+[2m2026-01-07T22:19:34.404965Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'git_log'
+[2m2026-01-07T22:19:34.405240Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'git_log'
+[2m2026-01-07T22:19:34.414949Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_git_log_cursor_moved' for 'cursor_moved'
+[2m2026-01-07T22:19:34.415056Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: status.ready
+[2m2026-01-07T22:19:34.415072Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_log] Git Log plugin initialized - Use 'Git Log' command to open
+[2m2026-01-07T22:19:34.415136Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_log' loaded successfully in 9.887913ms
+[2m2026-01-07T22:19:34.415149Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_log' registered, total plugins loaded: 25
+[2m2026-01-07T22:19:34.415165Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/python-lsp.ts"
+[2m2026-01-07T22:19:34.415177Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: python-lsp from "/usr/share/fresh-editor/plugins/python-lsp.ts"
+[2m2026-01-07T22:19:34.415186Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'python-lsp'
+[2m2026-01-07T22:19:34.416308Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_python_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.416334Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_python_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.416339Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_python_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.416348Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [python-lsp] python-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.416395Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'python-lsp' loaded successfully in 1.18769ms
+[2m2026-01-07T22:19:34.416401Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'python-lsp' registered, total plugins loaded: 26
+[2m2026-01-07T22:19:34.416409Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/git_gutter.ts"
+[2m2026-01-07T22:19:34.416414Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: git_gutter from "/usr/share/fresh-editor/plugins/git_gutter.ts"
+[2m2026-01-07T22:19:34.416429Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'git_gutter'
+[2m2026-01-07T22:19:34.416502Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'git_gutter'
+[2m2026-01-07T22:19:34.419398Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitGutterAfterFileOpen' for 'after_file_open'
+[2m2026-01-07T22:19:34.419441Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitGutterBufferActivated' for 'buffer_activated'
+[2m2026-01-07T22:19:34.419446Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitGutterAfterSave' for 'after_file_save'
+[2m2026-01-07T22:19:34.419450Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onGitGutterBufferClosed' for 'buffer_closed'
+[2m2026-01-07T22:19:34.419525Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_gutter] Git Gutter plugin loaded
+[2m2026-01-07T22:19:34.419545Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Git Gutter plugin ready
+[2m2026-01-07T22:19:34.419597Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_gutter' loaded successfully in 3.091523ms
+[2m2026-01-07T22:19:34.419604Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'git_gutter' registered, total plugins loaded: 27
+[2m2026-01-07T22:19:34.419612Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/rust-lsp.ts"
+[2m2026-01-07T22:19:34.419618Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: rust-lsp from "/usr/share/fresh-editor/plugins/rust-lsp.ts"
+[2m2026-01-07T22:19:34.419622Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'rust-lsp'
+[2m2026-01-07T22:19:34.420628Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_rust_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.420650Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_rust_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.420655Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_rust_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.420663Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [rust-lsp] rust-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.420712Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'rust-lsp' loaded successfully in 1.072944ms
+[2m2026-01-07T22:19:34.420720Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'rust-lsp' registered, total plugins loaded: 28
+[2m2026-01-07T22:19:34.420727Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/search_replace.ts"
+[2m2026-01-07T22:19:34.420732Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: search_replace from "/usr/share/fresh-editor/plugins/search_replace.ts"
+[2m2026-01-07T22:19:34.420736Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'search_replace'
+[2m2026-01-07T22:19:34.420933Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'search_replace'
+[2m2026-01-07T22:19:34.424638Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onSearchReplaceSearchConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.424691Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onSearchReplaceReplaceConfirmed' for 'prompt_confirmed'
+[2m2026-01-07T22:19:34.424701Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onSearchReplacePromptCancelled' for 'prompt_cancelled'
+[2m2026-01-07T22:19:34.424720Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [search_replace] Search & Replace plugin loaded
+[2m2026-01-07T22:19:34.424744Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Search & Replace plugin ready
+[2m2026-01-07T22:19:34.424805Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'search_replace' loaded successfully in 3.868425ms
+[2m2026-01-07T22:19:34.424825Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'search_replace' registered, total plugins loaded: 29
+[2m2026-01-07T22:19:34.424837Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/find_references.ts"
+[2m2026-01-07T22:19:34.424848Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: find_references from "/usr/share/fresh-editor/plugins/find_references.ts"
+[2m2026-01-07T22:19:34.424857Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'find_references'
+[2m2026-01-07T22:19:34.425076Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'find_references'
+[2m2026-01-07T22:19:34.428679Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_lsp_references' for 'lsp_references'
+[2m2026-01-07T22:19:34.428722Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_references_cursor_moved' for 'cursor_moved'
+[2m2026-01-07T22:19:34.428764Z[0m [32m INFO[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin set_status: Find References plugin loaded
+[2m2026-01-07T22:19:34.428776Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [find_references] Find References plugin initialized
+[2m2026-01-07T22:19:34.428830Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'find_references' loaded successfully in 3.744375ms
+[2m2026-01-07T22:19:34.428841Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'find_references' registered, total plugins loaded: 30
+[2m2026-01-07T22:19:34.428853Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/buffer_modified.ts"
+[2m2026-01-07T22:19:34.428863Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: buffer_modified from "/usr/share/fresh-editor/plugins/buffer_modified.ts"
+[2m2026-01-07T22:19:34.428873Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'buffer_modified'
+[2m2026-01-07T22:19:34.428947Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loaded i18n strings for plugin 'buffer_modified'
+[2m2026-01-07T22:19:34.430927Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onBufferModifiedAfterFileOpen' for 'after_file_open'
+[2m2026-01-07T22:19:34.430968Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onBufferModifiedBufferActivated' for 'buffer_activated'
+[2m2026-01-07T22:19:34.430977Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onBufferModifiedAfterSave' for 'after_file_save'
+[2m2026-01-07T22:19:34.430996Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onBufferModifiedAfterInsert' for 'after_insert'
+[2m2026-01-07T22:19:34.431005Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onBufferModifiedAfterDelete' for 'after_delete'
+[2m2026-01-07T22:19:34.431014Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'onBufferModifiedBufferClosed' for 'buffer_closed'
+[2m2026-01-07T22:19:34.431045Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [buffer_modified] Buffer Modified plugin loaded
+[2m2026-01-07T22:19:34.431098Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'buffer_modified' loaded successfully in 2.14438ms
+[2m2026-01-07T22:19:34.431108Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'buffer_modified' registered, total plugins loaded: 31
+[2m2026-01-07T22:19:34.431121Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: attempting to load "/usr/share/fresh-editor/plugins/html-lsp.ts"
+[2m2026-01-07T22:19:34.431131Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Loading TypeScript plugin: html-lsp from "/usr/share/fresh-editor/plugins/html-lsp.ts"
+[2m2026-01-07T22:19:34.431141Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: starting module load for plugin 'html-lsp'
+[2m2026-01-07T22:19:34.432191Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_html_lsp_server_error' for 'lsp_server_error'
+[2m2026-01-07T22:19:34.432216Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_html_lsp_status_clicked' for 'lsp_status_clicked'
+[2m2026-01-07T22:19:34.432230Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m Registered event handler 'on_html_lsp_action_result' for 'action_popup_result'
+[2m2026-01-07T22:19:34.432245Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [html-lsp] html-lsp: Plugin loaded
+[2m2026-01-07T22:19:34.432295Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'html-lsp' loaded successfully in 1.134443ms
+[2m2026-01-07T22:19:34.432305Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugin_internal: plugin 'html-lsp' registered, total plugins loaded: 32
+[2m2026-01-07T22:19:34.432345Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m load_plugins_from_dir_internal: finished loading from "/usr/share/fresh-editor/plugins", 0 errors
+[2m2026-01-07T22:19:34.432395Z[0m [34mDEBUG[0m [2mfresh::app[0m[2m:[0m Update checking enabled, starting periodic checker
+[2m2026-01-07T22:19:34.432404Z[0m [34mDEBUG[0m [2mfresh::services::release_checker[0m[2m:[0m Starting periodic update checker with interval 3600s
+[2m2026-01-07T22:19:34.432551Z[0m [34mDEBUG[0m [2mfresh::services::release_checker[0m[2m:[0m Fetching latest version from https://api.github.com/repos/sinelaw/fresh/releases/latest
+[2m2026-01-07T22:19:34.433868Z[0m [34mDEBUG[0m [2mfresh::state[0m[2m:[0m Created highlighter for "/root/restart.sh" (backend: textmate)
+[2m2026-01-07T22:19:34.433943Z[0m [34mDEBUG[0m [2mfresh::primitives::semantic_highlight[0m[2m:[0m Identifier query not supported for Bash, using text matching: Query error at 1:2. Invalid node type identifier
+[2m2026-01-07T22:19:34.433956Z[0m [34mDEBUG[0m [2mfresh::state[0m[2m:[0m Initializing marker list for file with 218 bytes
+[2m2026-01-07T22:19:34.434002Z[0m [34mDEBUG[0m [2mfresh::app::file_operations[0m[2m:[0m LSP manager available for file: /root/restart.sh
+[2m2026-01-07T22:19:34.434020Z[0m [34mDEBUG[0m [2mfresh::app::file_operations[0m[2m:[0m Detected language: bash for file: /root/restart.sh
+[2m2026-01-07T22:19:34.434027Z[0m [34mDEBUG[0m [2mfresh::app::file_operations[0m[2m:[0m Using URI from metadata: file:///root/restart.sh
+[2m2026-01-07T22:19:34.434034Z[0m [34mDEBUG[0m [2mfresh::app::file_operations[0m[2m:[0m Attempting to spawn LSP client for language: bash
+[2m2026-01-07T22:19:34.434043Z[0m [33m WARN[0m [2mfresh::app::file_operations[0m[2m:[0m Failed to spawn LSP client for language: bash
+[2m2026-01-07T22:19:34.436622Z[0m [32m INFO[0m [2mfresh::services::recovery[0m[2m:[0m Recovery session started
+[2m2026-01-07T22:19:34.436945Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'theme-editor'
+[2m2026-01-07T22:19:34.436972Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'merge-conflict'
+[2m2026-01-07T22:19:34.436983Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'merge-result'
+[2m2026-01-07T22:19:34.437004Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'diff-view'
+[2m2026-01-07T22:19:34.437034Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'review-mode'
+[2m2026-01-07T22:19:34.437057Z[0m [34mDEBUG[0m [2mfresh::app::plugin_commands[0m[2m:[0m Adding chord binding: [(Char('g'), KeyModifiers(0x0)), (Char('g'), KeyModifiers(0x0))] -> vi_doc_start
+[2m2026-01-07T22:19:34.437074Z[0m [34mDEBUG[0m [2mfresh::app::plugin_commands[0m[2m:[0m Adding chord binding: [(Char('z'), KeyModifiers(0x0)), (Char('z'), KeyModifiers(0x0))] -> vi_center_cursor
+[2m2026-01-07T22:19:34.437113Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-normal'
+[2m2026-01-07T22:19:34.437124Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-insert'
+[2m2026-01-07T22:19:34.437163Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-find-char'
+[2m2026-01-07T22:19:34.437178Z[0m [34mDEBUG[0m [2mfresh::app::plugin_commands[0m[2m:[0m Adding chord binding: [(Char('g'), KeyModifiers(0x0)), (Char('g'), KeyModifiers(0x0))] -> vi_op_doc_start
+[2m2026-01-07T22:19:34.437191Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-operator-pending'
+[2m2026-01-07T22:19:34.437206Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-text-object'
+[2m2026-01-07T22:19:34.437222Z[0m [34mDEBUG[0m [2mfresh::app::plugin_commands[0m[2m:[0m Adding chord binding: [(Char('g'), KeyModifiers(0x0)), (Char('g'), KeyModifiers(0x0))] -> vi_vis_doc_start
+[2m2026-01-07T22:19:34.437236Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-visual'
+[2m2026-01-07T22:19:34.437248Z[0m [34mDEBUG[0m [2mfresh::app::plugin_commands[0m[2m:[0m Adding chord binding: [(Char('g'), KeyModifiers(0x0)), (Char('g'), KeyModifiers(0x0))] -> vi_vis_doc_start
+[2m2026-01-07T22:19:34.437263Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-visual-line'
+[2m2026-01-07T22:19:34.437286Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'vi-visual-block'
+[2m2026-01-07T22:19:34.437330Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'git-blame'
+[2m2026-01-07T22:19:34.437342Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'diagnostics-list'
+[2m2026-01-07T22:19:34.437359Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'git-log'
+[2m2026-01-07T22:19:34.437366Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'git-commit-detail'
+[2m2026-01-07T22:19:34.437374Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'git-file-view'
+[2m2026-01-07T22:19:34.437396Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'search-replace-list'
+[2m2026-01-07T22:19:34.437409Z[0m [32m INFO[0m [2mfresh::app::plugin_commands[0m[2m:[0m Registered buffer mode 'references-list'
+[2m2026-01-07T22:19:34.439307Z[0m [34mDEBUG[0m [2mureq::stream[0m[2m:[0m connecting to api.github.com:443 at 140.82.121.6:443
+[2m2026-01-07T22:19:34.439522Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_gutter] Git Gutter: updating for /root/restart.sh
+[2m2026-01-07T22:19:34.440645Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [buffer_modified] Buffer Modified: initialized for /root/restart.sh
+[2m2026-01-07T22:19:34.445284Z[0m [34mDEBUG[0m [2mfresh::services::plugins::runtime[0m[2m:[0m TypeScript plugin: [git_gutter] Git Gutter: file not tracked by git
+[2m2026-01-07T22:19:34.452981Z[0m [34mDEBUG[0m [2mrustls::client::hs[0m[2m:[0m No cached session for DnsName("api.github.com")
+[2m2026-01-07T22:19:34.453052Z[0m [34mDEBUG[0m [2mrustls::client::hs[0m[2m:[0m Not resuming any session
+[2m2026-01-07T22:19:34.466104Z[0m [34mDEBUG[0m [2mrustls::client::hs[0m[2m:[0m Using ciphersuite TLS13_AES_128_GCM_SHA256
+[2m2026-01-07T22:19:34.466154Z[0m [34mDEBUG[0m [2mrustls::client::tls13[0m[2m:[0m Not resuming
+[2m2026-01-07T22:19:34.466351Z[0m [34mDEBUG[0m [2mrustls::client::tls13[0m[2m:[0m TLS1.3 encrypted extensions: ServerExtensions { server_name_ack: (), unknown_extensions: {}, .. }
+[2m2026-01-07T22:19:34.466364Z[0m [34mDEBUG[0m [2mrustls::client::hs[0m[2m:[0m ALPN protocol is None
+[2m2026-01-07T22:19:34.468158Z[0m [34mDEBUG[0m [2mureq::stream[0m[2m:[0m created stream: Stream(RustlsStream)
+[2m2026-01-07T22:19:34.468187Z[0m [34mDEBUG[0m [2mureq::unit[0m[2m:[0m sending request GET https://api.github.com/repos/sinelaw/fresh/releases/latest
+[2m2026-01-07T22:19:34.468209Z[0m [34mDEBUG[0m [2mureq::unit[0m[2m:[0m writing prelude: GET /repos/sinelaw/fresh/releases/latest HTTP/1.1
+Host: api.github.com
+User-Agent: fresh-editor-update-checker
+Accept: application/vnd.github.v3+json
+[2m2026-01-07T22:19:34.482131Z[0m [34mDEBUG[0m [2mureq::response[0m[2m:[0m Streaming body until content-length: 49866
+[2m2026-01-07T22:19:34.482172Z[0m [34mDEBUG[0m [2mureq::unit[0m[2m:[0m response 200 to GET https://api.github.com/repos/sinelaw/fresh/releases/latest
+[2m2026-01-07T22:19:34.506956Z[0m [34mDEBUG[0m [2mureq::stream[0m[2m:[0m dropping stream: Stream(RustlsStream)
+[2m2026-01-07T22:19:34.507190Z[0m [34mDEBUG[0m [2mfresh::services::release_checker[0m[2m:[0m Latest version: 0.1.71
+[2m2026-01-07T22:19:34.507236Z[0m [34mDEBUG[0m [2mfresh::services::release_checker[0m[2m:[0m Release check complete [3mcurrent[0m[2m=[0m"0.1.71" [3mlatest[0m[2m=[0m0.1.71 [3mupdate_available[0m[2m=[0mfalse [3minstall_method[0m[2m=[0mUnknown
+[2m2026-01-07T22:19:34.515098Z[0m [34mDEBUG[0m [2mfresh::services::release_checker[0m[2m:[0m Periodic update check completed: update_available=false
+[2m2026-01-07T22:19:37.280504Z[0m [32m INFO[0m [2mfresh::services::recovery[0m[2m:[0m Cleaned up 0 recovery files
+[2m2026-01-07T22:19:37.280591Z[0m [32m INFO[0m [2mfresh::services::recovery[0m[2m:[0m Recovery session ended
+[2m2026-01-07T22:19:37.281412Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::shutdown: starting shutdown
+[2m2026-01-07T22:19:37.281435Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::shutdown: sending Shutdown request
+[2m2026-01-07T22:19:37.281459Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread received shutdown request
+[2m2026-01-07T22:19:37.282811Z[0m [32m INFO[0m [2mfresh::services::plugins::thread[0m[2m:[0m Plugin thread shutting down
+[2m2026-01-07T22:19:37.283022Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::shutdown: dropping request_sender to close channel
+[2m2026-01-07T22:19:37.283045Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::shutdown: joining plugin thread
+[2m2026-01-07T22:19:37.283059Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::shutdown: plugin thread joined
+[2m2026-01-07T22:19:37.283065Z[0m [34mDEBUG[0m [2mfresh::services::plugins::thread[0m[2m:[0m PluginThreadHandle::shutdown: shutdown complete
