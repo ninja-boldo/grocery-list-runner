@@ -1,9 +1,18 @@
 #!/bin/bash
+set -e
 
-docker exec postgres-db pg_dump -U postgres maindb > maindb.sql
-docker compose down -v
-#docker pull boldo42/grocery-list-vite:latest
-docker rmi boldo42/grocery-list-vite
+BACKUP_FILE="maindb_$(date +%F_%H-%M-%S).sql"
+
+echo "backing up db"
+docker exec postgres-db pg_dump -U postgres maindb > "$BACKUP_FILE"
+
+# keep only last 3 backups
+ls -t maindb_*.sql | tail -n +4 | xargs -r rm
+
+echo "removing container and updating image"
+docker stop grocery-app || true
+docker rm grocery-app || true
+docker rmi boldo42/grocery-list-vite || true
+
+echo "spinning the container up again"
 docker compose up -d
-
-rm -rf /dist

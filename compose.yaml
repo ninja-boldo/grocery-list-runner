@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: maindb
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./maindb.sql:/docker-entrypoint-initdb.d/maindb.sql:ro
+
     command:
       - "postgres"
       - "-c"
@@ -54,10 +54,11 @@ services:
       - grocery-network
     volumes:
       - ./maindb.sql:/app/maindb.sql:ro
+      - ./models:/app/other/models
     deploy:
       resources:
         limits:
-          memory: 812M
+          memory: 384M
     restart: always
     healthcheck:
       test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:3030/health || exit 1"]
@@ -74,7 +75,7 @@ services:
       - "443:443"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./nginx-entrypoint.sh:/nginx-entrypoint.sh:ro
+      - ./scripts:/scripts:ro
       - ./dist:/usr/share/nginx/html:ro
       - ./certbot/www:/var/www/certbot:ro
       - ./data:/etc/letsencrypt
@@ -83,40 +84,21 @@ services:
     networks:
       - grocery-network
     restart: unless-stopped
-    entrypoint: ["/bin/sh", "/nginx-entrypoint.sh"]
-
-  prometheus:
-    image: prom/prometheus:latest
-    container_name: prometheus
-    ports:
-      - "9090:9090"
-    volumes:
-      - prometheus_data:/prometheus
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
-    command:
-      - "--config.file=/etc/prometheus/prometheus.yml"
-      - "--storage.tsdb.path=/prometheus"
-      - "--storage.tsdb.retention.time=12d"
-    networks:
-      - grocery-network
-    restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          memory: 512M
+    entrypoint: ["/bin/sh", "/scripts/nginx-entrypoint.sh"]
 
   certbot:
     image: certbot/certbot:latest
     container_name: certbot
     volumes:
       - ./certbot/www:/var/www/certbot
-      - ./certbot-entrypoint.sh:/certbot-entrypoint.sh:ro
+      - ./scripts:/scripts:ro
       - ./data:/etc/letsencrypt
       - /var/run/docker.sock:/var/run/docker.sock:ro
     depends_on:
       - nginx
-    entrypoint: ["/bin/sh", "/certbot-entrypoint.sh"]
+    entrypoint: ["/bin/sh", "/scripts/certbot-entrypoint.sh"]
     restart: unless-stopped
+
 
 volumes:
   postgres_data:
