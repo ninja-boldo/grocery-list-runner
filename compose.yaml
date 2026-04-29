@@ -55,6 +55,7 @@ services:
     volumes:
       - ./maindb.sql:/app/maindb.sql:ro
       - ./models:/app/other/models
+      - ./.env:/app/.env:ro
     deploy:
       resources:
         limits:
